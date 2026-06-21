@@ -1,0 +1,107 @@
+/*
+* Dark Section Colours:
+* Dark Background: #1F2937
+* Text Main: 48px #F9FAF8 Weight: 900
+* Text Secondary: 19px #E5E7EB
+* Text Logo: 24px #F9FAF8
+* 
+*
+* Quote Background:  #E5E7EB
+* Text: 36px #1F2937 Weight: 300
+* 
+* LIGHT section
+* Button: #3882f6
+* Information header text: 36px #1F2937 Weight:900
+*/
+
+
+body {
+
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.header {
+    
+}
+
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subheader > p {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 0 16px;
+}
+
+.extraheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-heading {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.extraheader > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 24px;
+    max-width: 480px;
+    min-width: 120px;
+}
+
+.headerImg {
+    max-width: 480px;
+    min-width: 120px;
+    padding: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    
+    text-decoration: none;
+    color: #E5E7EB;
+    padding: 0 16px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;;
+}
+
+.card > img {
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.modal {
+    background-color: #3882f6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
