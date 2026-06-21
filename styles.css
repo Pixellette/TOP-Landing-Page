@@ -142,13 +142,16 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #E5E7EB;
 
     color: #1F2937;
 }
 
 .quote-msg {
-    width: 600px;
+    width: 700px;
+    margin: 0;
+    margin-top: 16px;
     text-align: center;
     font-style: italic;
     font-size: 36px;
@@ -156,17 +159,19 @@ button {
 }
 
 .quote-person {
-    width: 600px;
+    width: 700px;
+    margin: 0;
+    margin-bottom: 16px;
     text-align: right;
     font-size: 28px;
     font-weight: 900;
 }
 
 .modal {
-    width: 600px;
+    width: 700px;
     display: flex;
     background-color: #3882f6;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 24px;
     padding: 24px;
@@ -175,7 +180,8 @@ button {
 }
 
 .left {
-
+    flex: 6; 
+    margin: 16px;
 }
 
 .left > h4 {
@@ -193,7 +199,12 @@ button {
 }
 
 .modal > button {
+    flex: 1;
     border: 1px solid #F9FAF8;
+}
+
+.footer {
+    text-align: center;
 }
 
 
