@@ -14,6 +14,24 @@
 * Information header text: 36px #1F2937 Weight:900
 */
 
+/* NEW COLOURS
+* Dark Section Colours:
+* Dark Background: #1F2937
+* Text Main: 48px #F9FAF8 Weight: 900
+* Text Secondary: 19px #E5E7EB
+* Text Logo: 24px #F9FAF8
+* 
+*
+* Quote Background:  #E5E7EB
+* Text: 36px #1F2937 Weight: 300
+* 
+* LIGHT section
+* Button: #3882f6
+* Information header text: 36px #1F2937 Weight:900
+*/
+
+
+
 
 body {
     display: flex;
