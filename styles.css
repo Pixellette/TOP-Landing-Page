@@ -40,7 +40,7 @@ body {
 }
 
 .header, .footer {
-    background-color: #595E48;
+    background: linear-gradient(45deg, #595E48, #919682);
     color: #C7CDBF;
 }
 
